@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Notes.css"
-import { Navigate } from 'react-router-dom'
+import { Link, Navigate } from 'react-router-dom'
 
 
 export default function Login() {
@@ -67,6 +67,8 @@ export default function Login() {
             />
         
         <button onClick={handleLogin}>Login</button>
+        <Link to="/signup">Not Registered Yet?👉🏽 Sign Up</Link>
+            <Link to="/">Go to Home Page</Link>
         </form>
     </div>
   )

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Login from './Login'
 import "./Notes.css"
-import { Navigate, useNavigate } from 'react-router-dom'
+import { Link, Navigate, useNavigate } from 'react-router-dom'
 
 
 
@@ -70,6 +70,8 @@ if(isregistered){
             />
         
         <button onClick={handlesubmit}>submit</button>
+        <Link to="/login">Already Signed Up?👉🏽 Login</Link>
+            <Link to="/">Go to Home Page</Link>
         </form>
         
     </div>
