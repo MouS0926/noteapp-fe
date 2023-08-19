@@ -107,7 +107,7 @@ if(islogout){
 }
   return (
     <div className='bgcolor'>
-    <h2>Notes Taking Application</h2>
+    <h2> 🔗 Notes Taking Application 🔗 </h2>
 
 <div className="logoutdiv">
     <button onClick={() => setShowModal(true)}><MdAddCircle/>Add New Note</button>
