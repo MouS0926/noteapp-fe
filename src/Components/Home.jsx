@@ -23,7 +23,7 @@ export default function Home() {
     </div>
 
 </div>
-
+<h3>Designed and Developed by ❤️ Moumita Sarkar, 2023 All right reserved.</h3>
 
 
     </div>
